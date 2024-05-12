@@ -1,0 +1,21 @@
+.container {
+    text-align: center;
+}
+
+.puzzle-container {
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    grid-template-rows: repeat(3, 100px);
+    grid-gap: 5px;
+}
+
+.tile {
+    width: 100px;
+    height: 100px;
+    border: 2px solid #000;
+    font-size: 36px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
